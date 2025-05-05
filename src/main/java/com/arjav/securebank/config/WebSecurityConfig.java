@@ -38,10 +38,7 @@ public class WebSecurityConfig {
             "/api/auth/password-reset",
             "/api/users/generate-otp",
             "/api/users/verify-otp",
-            "swagger-ui.html",
-            "/v3/api-docs/**",
-            "/swagger-ui/**",
-            "/actuator/**"
+            
     };
 
     private final JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;
